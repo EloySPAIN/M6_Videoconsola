@@ -147,11 +147,73 @@
 .luces {
     display: grid;
     grid-template-rows: auto auto;
+    grid-row-gap: 50%;
+    width: 2.6%;
+    height: 10%;
+    position: relative;
+    top: 1%;
+    left: 97.6%;
 }
 
-#alto {
-    background-color: #474b4e;
-    width: 50%;
+#high {
+    background-color: #2c2c2c;
+    border-radius: 15%;
+}
+
+#low {
+    background-color: #2c2c2c;
+    border-radius: 15%;
+}
+
+.flechas {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 10%;
+    grid-column-gap: 10%;
+    width: 21%;
+    height: 18%;
+
+}
+
+.flechas #arriba {
+    background-color: #2c2c2c;
+    border-radius: 15%;
+    position: relative;
+    top:30%;
+    left: 318%;
+}
+
+.flechas #abajo {
+    background-color: #2c2c2c;
+    border-radius: 15%;
+    position: relative;
+    top: 96%;
+    left: 180%;
+}
+
+.flechas #centro {
+    background-color: #2c2c2c;
+    border-radius: 15%;
+    position: relative;
+    top: 125%;
+    left: 180%;
+}
+
+.flechas #derecha {
+    background-color: #2c2c2c;
+    border-radius: 15%;
+    position: relative;
+    top: 125%;
+    left: 138%;
+}
+
+.flechas #izquierda {
+    background-color: #2c2c2c;
+    border-radius: 15%;
+    position: relative;
+    top: 1%;
+    left: 220%;
 }
 
 
