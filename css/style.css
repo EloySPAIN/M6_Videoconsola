@@ -1,0 +1,158 @@
+@font-face {
+    font-family: "GameCuben";
+    src: url("fuente/GameCube.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Pretendo";
+    src: url("fuente/Pretendo.ttf") format("truetype");
+}
+
+#consola {
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+#chasis1 {
+    margin-top: 3%;
+    margin-left: 38%;
+    margin-right: 38%;
+    padding-bottom: 2.5%;
+    padding-top: 0.8%;
+    background-color: #094293;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 0.3px;
+    border-color: #1919e5;
+}
+
+
+#pantalla1 {
+    width: 86%;
+    background-color: #45424a;
+    padding-bottom: -3%;
+    margin-left: 6%;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 0.3px;
+    border-color: #1d1e33;
+}
+
+#sub_pantalla {
+    width: 90%;
+    padding-bottom: 63%;
+    margin-top: 3%;
+    margin-left: 4.5%;
+    background-color: #6c6874;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: #1c0d02;
+}
+
+#pliegue {
+    width: 23.8%;
+    height: 25px;
+    background-color: #094293;
+    border-radius: 10px;
+    margin-left: 38%;
+    border-style: solid;
+    border-width: 0.3px;
+    border-color: #094293;
+}
+
+.circles {
+    display: grid;
+    grid-template-rows: 110% 110%;
+    grid-template-columns: 3.5% 3.5%;
+    height: 6%;
+}
+
+#circle1 {
+    background-color: #2b4f78;
+    border-radius: 100%;
+    position: relative;
+    bottom: 25%;
+    left: 200%;
+}
+#circle2 {
+    background-color: #2b4f78;
+    border-radius: 100%;
+    position: relative;
+    bottom: 25%;
+    left: 2400%;
+}
+#circle3 {
+    background-color: #2b4f78;
+    border-radius: 100%;
+    position: relative;
+    top: 1530%;
+    left: 200%;
+}
+#circle4 {
+    background-color: #2b4f78;
+    border-radius: 100%;
+    position: relative;
+    top: 1530%;
+    left: 2400%;
+}
+#pr1 {
+    margin-top: -4%;
+    margin-bottom: -4%;
+}
+#text1,#text2,#text3 {
+    font-size: 70%;
+    color: white;
+}
+
+#text1,#text3{
+    font-family: "Pretendo";
+    font-size: 70%;
+    font-weight: normal;
+    -webkit-text-stroke: 0.6px black;
+}
+#text2{
+    font-family: "Gamecuben";
+    font-size: 50%;
+    font-weight: bold;
+    -webkit-text-stroke: 0.3px black;
+}
+
+#text3{
+    font-weight: normal;
+}
+
+#chasis2 {
+    background-color: #094293;
+    border-radius: 20px;
+    margin-left: 38%;
+    margin-right: 38%;
+    margin-bottom: -18%;
+    border-style: solid;
+    border-width: 0.3px;
+    border-color: #1919e5;
+}
+
+#btnLuz {
+    position: relative;
+    top: 6%;
+    left: 50%;
+}
+#btnLuz > i {
+    background-color: #474b4e;
+    border-radius: 100%;
+    color: #2c2c2c;
+    font-size:14px;
+}
+
+.luces {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+#alto {
+    background-color: #474b4e;
+    width: 50%;
+}
+
+
+
